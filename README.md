@@ -45,6 +45,7 @@ You can run this app as a container next to your ros containers as a sidecar wit
 ```
 docker compose up
 ```
+The web ui will also be available at http://localhost:8888 
 
 ## Installing it as a ROS package
 
