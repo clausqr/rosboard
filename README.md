@@ -38,6 +38,15 @@ source /opt/ros/YOUR_ROS1_OR_ROS2_DISTRO/setup.bash
 
 Point your web browser at http://localhost:8888 (or replace localhost with your robot's IP) and you're good to go.
 
+## Running as docker sidecar (also very easy)
+
+You can run this app as a container next to your ros containers as a sidecar without modifying your current setup:
+
+```
+docker compose up
+```
+The web ui will also be available at http://localhost:8888 
+
 ## Installing it as a ROS package
 
 This ROS package should work in either ROS1 or ROS2. Simply drop it into your `catkin_ws/src/` or `colcon_ws/src/` and it should just work.
